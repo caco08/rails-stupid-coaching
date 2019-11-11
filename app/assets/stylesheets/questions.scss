@@ -1,0 +1,32 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    padding-left: 90px;
+    background: rgb(234, 225, 225);
+
+}
+
+p {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  padding-left: 90px;
+  background: rgb(234, 225, 225);
+}
+
+p {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
